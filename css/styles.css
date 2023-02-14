@@ -28,7 +28,7 @@ p {
     object-fit: contain;
 }
 
-.overImage {
+.overImage div {
     position: absolute;
 }
 
