@@ -28,7 +28,7 @@ p {
     object-fit: contain;
 }
 
-#scrollableElement div {
+.overImage {
     position: absolute;
 }
 
