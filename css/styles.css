@@ -32,10 +32,11 @@ p {
     position: absolute;
 }
 
+/* IMPORTANT: Use vh for positioning so that it will adapt to different screen sizes! */
 #faq {
-    left: 3200px;
+    left: 450vh;
 }
 
 #schedule {
-    left: 4100px;
+    left: 590vh;
 }
