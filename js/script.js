@@ -3,3 +3,8 @@ scrollableElement.addEventListener('wheel', (ev) => {
     ev.preventDefault();  // stop scrolling in another direction
     scrollableElement.scrollLeft += (ev.deltaY + ev.deltaX);
 });
+
+function smoothScroll(whereToScroll) {
+  const element = document.getElementById(whereToScroll);
+  element.scrollIntoView({behavior: "smooth", inline: "center"});
+}
