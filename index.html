@@ -22,12 +22,71 @@
                 </div>
                 <div id="faq">
                     <h1>FAQ</h1>
+                    <ul>
+                        <li>
+                            <a data-bs-toggle="modal" href="" role="button" data-bs-target="#faqModal1">What's a hackathon?</a>
+                        </li>
+                        <li>
+                            <a>How do I apply?</a>
+                        </li>
+                        <li>
+                            <a>When and where is Uncommon Hacks?</a>
+                        </li>
+                        <li>
+                            <a>What does the application process and timeline look like?</a>
+                        </li>
+                        <li>
+                            <a>What can I make and who can I work with?</a>
+                        </li>
+                        <li>
+                            <a>What if I'm new to coding?</a>
+                        </li>
+                        <li>
+                            <a>How much does it cost?</a>
+                        </li>
+                        <li>
+                            <a>What if I have other questions?</a>
+                        </li>
+                        <li>
+                            <a>How do I stay in touch with Uncommon Hacks?</a>
+                        </li>
+                    </ul>
                 </div>
 
                 <div id="schedule">
                     <h1>Schedule</h1>
-                    <button>Click here to view the schedule!</button>
+                    <button data-bs-toggle="modal" data-bs-target="#scheduleModal">View the Schedule</button>
                 </div>
+            </div>
+        </div>
+
+        <!-- Modal windows for FAQ -->
+        <div>
+            <div class="modal fade " id="faqModal1" tabindex="-1">
+                <div class="modal-dialog ">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Hackathons are invention marathons where attendees collaborate on a project over the course of a weekend! Hackers will be in a fun, supportive environment with the necessary tools and mentorship provided to create weird, quirky, and amazing projects that creatively explore new ideas with code or solve unconventional problems. University and high school students from anywhere are welcome, even if you're not a computer science major or have never been to a hackathon before! We've written a guide for first-time hackers available <a href="https://github.com/uncommonhacks/guide">here</a>. </p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal window for schedule -->
+        <div class="modal fade " id="scheduleModal" tabindex="-1">
+            <div class="modal-dialog ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Schedule coming soon!</p>
+                </div>
+            </div>
             </div>
         </div>
 

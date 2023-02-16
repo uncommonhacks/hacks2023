@@ -9,11 +9,11 @@ body {
     flex-flow: column;
 }
 
-p {
+#nav p {
     margin: 0.5em;
 }
 
-p:hover{
+#nav p:hover{
     color: white
 }
 
@@ -46,9 +46,13 @@ p:hover{
 }
 
 #faq {
+    top: 5vh;
     left: 450vh;
+    width: 75vh;
 }
 
 #schedule {
+    top: 5vh;
     left: 590vh;
+    text-align: center;
 }
