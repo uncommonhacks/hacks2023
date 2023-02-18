@@ -1,6 +1,13 @@
+<!DOCTYPE html>
 <html>
     <head>
+        <!-- Styling -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet">
+
+        <!-- External javascript -->
+        <script src="js/jquery-3.6.1.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
     </head>
     <body>
         <div id="scrollableElement">
@@ -15,12 +22,226 @@
                 </div>
                 <div id="faq">
                     <h1>FAQ</h1>
+                    <ul>
+                        <li>
+                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal1">What's a hackathon?</button>
+                        </li>
+                        <li>
+                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal2">How do I apply?</button>
+                        </li>
+                        <li>
+                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal3">When and where is Uncommon Hacks?</button>
+                        </li>
+                        <li>
+                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal4">What does the application process and timeline look like?</button>
+                        </li>
+                        <li>
+                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal5">Is Hacks only for undergraduate students??</button>
+                        </li>
+                        <li>
+                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal6">What can I make and who can I work with?</button>
+                        </li>
+                        <li>
+                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal7">What if I'm new to coding?</button>
+                        </li>
+                        <li>
+                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal8">How much does it cost?</button>
+                        </li>
+                        <li>
+                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal9">Did you say prizes?</button>
+                        </li>
+                        <li>
+                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal10">What should I bring?</button>
+                        </li>
+                        <li>
+                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal11">What if I have other questions?</button>
+                        </li>
+                        <li>
+                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal12">How do I stay in touch with Uncommon Hacks?</button>
+                        </li>
+                    </ul>
                 </div>
 
                 <div id="schedule">
                     <h1>Schedule</h1>
-                    <button>Click here to view the schedule!</button>
+                    <button class="scheduleButton" data-bs-toggle="modal" data-bs-target="#scheduleModal">View the Schedule</button>
                 </div>
+            </div>
+        </div>
+
+        <!-- Modal windows for FAQ -->
+        <div>
+            <div class="modal fade " id="faqModal1" tabindex="-1">
+                <div class="modal-dialog ">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            What's a hackathon?
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Hackathons are invention marathons where attendees collaborate on a project over the course of a weekend! Hackers will be in a fun, supportive environment with the necessary tools and mentorship provided to create weird, quirky, and amazing projects that creatively explore new ideas with code or solve unconventional problems. University and high school students from anywhere are welcome, even if you're not a computer science major or have never been to a hackathon before! We've written a guide for first-time hackers available <a href="https://github.com/uncommonhacks/guide">here</a>. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade " id="faqModal2" tabindex="-1">
+                <div class="modal-dialog ">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            How do I apply?
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Regular applications open on the week of Feb. 20 and will be due around two weeks later. Applications are accepted on a rolling basis. You can participate as long as you're a student enrolled in a high school or university, or you have graduated within the last 12 months. We aim to be beginner-friendly, so all are welcome! Check back on this website then, and follow our <a href="http://instagram.com/uncommonhacks">Instagram</a> and <a href="https://www.facebook.com/uncommonhacks">Facebook</a> for the latest updates!  </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade " id="faqModal3" tabindex="-1">
+                <div class="modal-dialog ">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            When and where is Uncommon Hacks?
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>March 24th-26th 2023 @ the Polsky Exchange, 1452 E 53rd St., 2nd floor, Chicago, IL, 60615</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade " id="faqModal4" tabindex="-1">
+                <div class="modal-dialog ">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            What does the application process and timeline look like?
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>The process starts out with the hackathon application, which consists of basic demographic questions as well as a few ~mystery~ short answer ones. The Uncommon Hacks team will be reviewing the applications in waves, and you will be notified via email with the result of your application. If you've been accepted, you will have an RSVP link to complete as confirmation of your attendance. From there, you're all set - see you on our adventure! </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade " id="faqModal5" tabindex="-1">
+                <div class="modal-dialog ">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            Is Hacks only for undergraduate students?
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>No, high school or university students are welcome to come join us!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade " id="faqModal6" tabindex="-1">
+                <div class="modal-dialog ">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            What can I make and who can I work with?
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>You are encouraged (but not required) to work in teams of up to five (5) people! Collaborating with hackers across different schools is especially welcome. We will offer plenty of opportunities for you to meet new people and make teams.</p>
+                            <p>Our hackers created the most whimsical projects, from programatic contemporary art to a UChicago-themed battle royale. Check out our 2022 winning project gallery <a href="https://uncommonhacks-2022.devpost.com/project-gallery">here</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade " id="faqModal7" tabindex="-1">
+                <div class="modal-dialog ">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            What if I'm new to coding?
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>We welcome everyone to apply, regardless of your background in tech! Even if you have limited coding or technical experience, we will have plenty of talks and workshops scheduled to introduce you to a plethora of different tools and technologies. We will also have mentors available throughout the weekend to help out if you ever get stuck or run out of ideas. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade " id="faqModal8" tabindex="-1">
+                <div class="modal-dialog ">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            How much does it cost?
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Nothing! Uncommon Hacks is free to attend. We will not offer travel reimbursement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade " id="faqModal9" tabindex="-1">
+                <div class="modal-dialog ">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            Did you say prizes?
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Affirmative, we will be handing out various prizes to the top submissions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade " id="faqModal10" tabindex="-1">
+                <div class="modal-dialog ">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            What should I bring?
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>The basic thing is a laptop, and if you are planning on staying the night we recommend some additional items: a sleeping bag, change of clothes, and a toothbrush/toothpaste, but you don't have to stay the night although we may have limitations on when people can enter and exit the venue during the night. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade " id="faqModal11" tabindex="-1">
+                <div class="modal-dialog ">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            What if I have other questions?
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Email celery@uncommonhacks.com or shoot us a <a href="https://m.me/uncommonhacks">Facebook message</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade " id="faqModal12" tabindex="-1">
+                <div class="modal-dialog ">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            How do I stay in touch with Uncommon Hacks?
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Follow our <a href="http://instagram.com/uncommonhacks">Instagram</a> and <a href="http://facebook.com/uncommonhacks">Facebook</a> for the latest updates! To subscribe to our email list, fill out the form <a href="https://forms.gle/tRNXV2CNvVyqnz59A">here</a>. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal window for schedule -->
+        <div class="modal fade " id="scheduleModal" tabindex="-1">
+            <div class="modal-dialog ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    Schedule
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Schedule coming soon!</p>
+                </div>
+            </div>
             </div>
         </div>
 
