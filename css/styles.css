@@ -47,12 +47,31 @@ body {
 
 #faq {
     top: 5vh;
-    left: 450vh;
-    width: 75vh;
+    left: 420vh;
+    width: 40vw;
+    text-align: center;
+}
+
+#faq ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.faqButton {
+    width: 100%;
+    margin-top: 1vh;
 }
 
 #schedule {
     top: 5vh;
     left: 590vh;
     text-align: center;
+}
+
+/* Special styling for smaller screens only */
+@media all and (max-width: 768px) {
+    #faq {
+        width: 70vw;
+    }
 }
