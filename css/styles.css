@@ -9,14 +9,6 @@ body {
     flex-flow: column;
 }
 
-#nav p {
-    margin: 0.5em;
-}
-
-#nav p:hover{
-    color: white
-}
-
 #scrollableElement {
     max-width: 100vw;
     height: 100vh;
@@ -43,6 +35,16 @@ body {
     height: 100vh;
     background-color: hotpink;
     text-align: center;
+    position: fixed; /* Set the navbar to fixed position */
+     z-index: 1;
+}
+
+#nav p {
+    margin: 0.5em;
+}
+
+#nav p:hover{
+    color: white
 }
 
 #faq {
