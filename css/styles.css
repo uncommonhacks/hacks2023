@@ -24,6 +24,10 @@ body {
     object-fit: contain;
 }
 
+.bunnycursor {
+    cursor: url(images/bunny.png) 33 55, auto;
+}
+
 .overImage div {
     position: absolute;
 }
