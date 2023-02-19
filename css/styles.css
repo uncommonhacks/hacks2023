@@ -25,7 +25,7 @@ body {
 }
 
 .bunnycursor {
-    cursor: url(images/bunny.png) 33 55, auto;
+    cursor: url(../images/bunny.png) 33 55, auto;
 }
 
 .overImage div {
