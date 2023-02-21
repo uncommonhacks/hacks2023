@@ -75,6 +75,14 @@ body {
     text-align: center;
 }
 
+#About {
+    top: 5vh;
+    left: 200vh;
+    width: 20%;
+    text-align: center;
+}
+
+
 #faq ul {
     list-style-type: none;
     margin: 0;
