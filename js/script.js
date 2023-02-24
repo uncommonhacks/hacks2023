@@ -7,11 +7,11 @@ scrollableElement.addEventListener('wheel', (ev) => {
 /* Allow up/down scroll only on special non-scrollable elements. 
  * After scrolling entirely through the element, continue horizontal scroll.
  */
-const el = document.getElementsByClassName('nonScrollableElement');
+const el = document.getElementsByClassName('verticalScrollElement');
 for (var i = 0; i < el.length; i++) {
-  var e = el[i];
-  e.addEventListener('wheel', (ev) => {
-    if (hasScrollbar(e) && !((atBottom(e) && ev.deltaY > 0) ||(atTop(e) && ev.deltaY < 0))) {
+  el[i].addEventListener('wheel', (ev) => {
+    var e = ev.currentTarget;
+    if (hasScrollbar(e) && !((atBottom(e) && ev.deltaY > 0) || (atTop(e) && ev.deltaY < 0))) {
       scrollableElement.scrollLeft -= (ev.deltaY + ev.deltaX);
       e.scrollTop += (ev.deltaY + ev.deltaX);
     }

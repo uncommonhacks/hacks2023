@@ -24,7 +24,7 @@ body {
     overflow-y: scroll;
 }
 
-.nonScrollableElement {
+.verticalScrollElement {
     max-height: 85vh;
     width: 100%;
     display: flex;
@@ -116,15 +116,6 @@ img {
 .faqButton {
     width: 100%;
     margin-bottom: 1.75vh;
-}
-
-#schedule {
-    top: 5vh;
-    left: 450vh;
-    text-align: center;
-}
-
-.faqButton {
     background-color: var(--color_background);
     color: var(--color_text);
     border: none;
@@ -135,6 +126,12 @@ img {
 .faqButton:hover {
     background-color: var(--color_text);
     color: var(--color_background);
+}
+
+#schedule {
+    top: 5vh;
+    left: 450vh;
+    text-align: center;
 }
 
 .modal-content {
