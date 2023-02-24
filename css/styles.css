@@ -1,7 +1,8 @@
 /* Color variables */
 :root {
-    --color_button_background: hotpink;
-    --color_button_text: black;
+    --color_background: #B5B2E8;
+    --color_text: black;
+    --color_text_alt: white;
 }
 
 body {
@@ -56,7 +57,7 @@ img {
     left: 0vh;
     width: fit-content;
     height: 100vh;
-    background-color: hotpink;
+    background-color: var(--color_background);
     text-align: center;
     position: fixed; /* Set the navbar to fixed position */
     z-index: 1;
@@ -67,7 +68,7 @@ img {
 }
 
 #nav p:hover{
-    color: white;
+    color: var(--color_text_alt);
     animation: pulse 1s;
     transition: 1s;
 }
@@ -123,17 +124,25 @@ img {
     text-align: center;
 }
 
-.faqButton, .scheduleButton {
-    background-color: var(--color_button_background);
-    color: var(--color_button_text);
+.faqButton {
+    background-color: var(--color_background);
+    color: var(--color_text);
     border: none;
     border-radius: 12px;
     padding: 0.25em 0.5em;
 }
 
-.faqButton:hover, .scheduleButton:hover {
-    background-color: var(--color_button_text);
-    color: var(--color_button_background);
+.faqButton:hover {
+    background-color: var(--color_text);
+    color: var(--color_background);
+}
+
+.modal-content {
+    background-color: var(--color_background);
+}
+
+.modal-content a {
+    color: var(--color_text_alt);
 }
 
 #members {
