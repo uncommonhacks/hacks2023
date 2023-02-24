@@ -24,7 +24,6 @@ body {
 }
 
 .nonScrollableElement {
-    background-color: rgba(0, 0, 0, 0.1);
     max-height: 85vh;
     width: 100%;
     display: flex;
@@ -34,7 +33,7 @@ body {
 
 img {
     margin-right: 2vh;
-    width: 40vh;
+    width: 65vh;
 }
 
 #backgroundImage {
@@ -101,16 +100,16 @@ img {
 
 #faq {
     top: 5vh;
-    left: 420vh;
+    left: 250vh;
     width: 40vw;
     text-align: center;
 }
 
 #faq ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    width: 97%;
+    width: 95%;
 }
 
 .faqButton {
@@ -120,7 +119,7 @@ img {
 
 #schedule {
     top: 5vh;
-    left: 590vh;
+    left: 450vh;
     text-align: center;
 }
 
@@ -176,9 +175,9 @@ img {
     100% {left: 10vw; top: 0vh; transform: rotate(180deg);}
   }
 
-/* Special styling for smaller screens only */
-@media all and (max-width: 768px) {
+/* Special styling for larger screens only */
+@media all and (min-width: 768px) {
     #faq {
-        width: 65vw;
+        width: 40vw;
     }
 }
