@@ -25,7 +25,7 @@ body {
 }
 
 .verticalScrollElement {
-    max-height: 85vh;
+    max-height: 80vh;
     width: 100%;
     display: flex;
     position: fixed;
@@ -102,7 +102,7 @@ img {
 #faq {
     top: 5vh;
     left: 250vh;
-    width: 40vw;
+    width: 65vw;
     text-align: center;
 }
 
@@ -130,8 +130,21 @@ img {
 
 #schedule {
     top: 5vh;
-    left: 450vh;
+    left: 430vh;
+    width: 65vw;
     text-align: center;
+}
+
+#schedule ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 95%;
+    text-align: left;
+}
+
+#schedule ul ul {
+    margin-bottom: 1em;
 }
 
 .modal-content {
@@ -184,6 +197,10 @@ img {
 /* Special styling for larger screens only */
 @media all and (min-width: 768px) {
     #faq {
+        width: 40vw;
+    }
+
+    #schedule {
         width: 40vw;
     }
 }
