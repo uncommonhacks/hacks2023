@@ -1,8 +1,8 @@
 /* Color variables */
 :root {
     --color_background: #B5B2E8;
-    --color_text: black;
-    --color_text_alt: white;
+    --color_text: #1a174f;
+    --color_text_alt: #ecebf9;
 }
 
 body {
@@ -101,8 +101,8 @@ img {
 
 #faq {
     top: 5vh;
-    left: 250vh;
-    width: 65vw;
+    left: 280vh;
+    width: 55vw;
     text-align: center;
 }
 
@@ -197,10 +197,10 @@ img {
 /* Special styling for larger screens only */
 @media all and (min-width: 768px) {
     #faq {
-        width: 40vw;
+        width: 32vw;
     }
 
     #schedule {
-        width: 40vw;
+        width: 32vw;
     }
 }

@@ -13,7 +13,7 @@ for (var i = 0; i < el.length; i++) {
     var e = ev.currentTarget;
     if (hasScrollbar(e) && !((atBottom(e) && ev.deltaY > 0) || (atTop(e) && ev.deltaY < 0))) {
       scrollableElement.scrollLeft -= (ev.deltaY + ev.deltaX);
-      e.scrollTop += (ev.deltaY + ev.deltaX);
+      e.scrollTop += (ev.deltaY *.5 + ev.deltaX * .5);
     }
   }
 )}
