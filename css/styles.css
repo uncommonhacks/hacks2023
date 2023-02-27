@@ -95,8 +95,9 @@ img {
 #about {
     top: 5vh;
     left: 75vh;
-    width: 31vh;
+    width: 32vh;
     text-align: center;
+    color: var(--color_background);
 }
 
 #faq {
