@@ -95,13 +95,22 @@ img {
 #about {
     top: 5vh;
     left: 75vh;
-    width: 31vh;
+    width: 32vh;
     text-align: center;
+    color: var(--color_background);
+}
+
+#about .verticalScrollElement {
+    max-height: 40vh;
+}
+
+#about p {
+    width: 95%;
 }
 
 #faq {
     top: 5vh;
-    left: 280vh;
+    left: 265vh;
     width: 55vw;
     text-align: center;
 }
@@ -111,6 +120,10 @@ img {
     margin: 0 auto;
     padding: 0;
     width: 95%;
+}
+
+#faq .verticalScrollElement{
+    max-height: 45vh;
 }
 
 .faqButton {
