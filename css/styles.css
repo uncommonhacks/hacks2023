@@ -182,8 +182,9 @@ img {
 }
 
 #socials {
-    top: 68vh;
-    left: 670vh;
+    top: 70vh;
+    left: 665vh;
+    width: 50vh;
     text-align: center;
 }
 
@@ -193,6 +194,7 @@ img {
 }
 
 #runner{
+    z-index: 1;
     position: fixed;
     animation: run 7s infinite linear;
 }
@@ -224,11 +226,9 @@ btn {
 }
   
 .email {
-    top: 75vh;
-    left: 650vh;
-    margin: 2vw;
-    width: 5vw;
-    height: 5vw;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
     background-image: url('../images/email.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -243,11 +243,9 @@ btn {
 }
   
 .facebook {
-    top: 75vh;
-    left: 660vh;
-    margin: 2vw;
-    width: 5vw;
-    height: 5vw;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
     background-image: url('../images/facebook.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -262,11 +260,9 @@ btn {
 }
 
 .instagram {
-    top: 75vh;
-    left: 670vh;
-    margin: 2vw;
-    width: 5vw;
-    height: 5vw;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
     background-image: url('../images/instagram2.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -281,11 +277,9 @@ btn {
 }
 
 .linkedin {
-    top: 75vh;
-    left: 670vh;
-    margin: 2vw;
-    width: 5vw;
-    height: 5vw;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
     background-image: url('../images/linkedin.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -300,11 +294,9 @@ btn {
 }
 
 .twitter {
-    top: 75vh;
-    left: 670vh;
-    margin: 2vw;
-    width: 5vw;
-    height: 5vw;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
     background-image: url('../images/twitter.png');
     background-size: cover;
     background-repeat: no-repeat;
