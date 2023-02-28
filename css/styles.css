@@ -14,7 +14,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    background-color: #9981aa;
+    background-image: linear-gradient(#a483af,#9981aa,#9984ac);
 }
 
 #scrollableElement {
