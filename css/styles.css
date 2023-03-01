@@ -169,6 +169,12 @@ img {
     color: var(--color_text_alt);
 }
 
+#register {
+    top: 100px;
+    left: 130px;
+    text-align: center;
+}
+
 #members {
     top: 5vh;
     left: 670vh;
@@ -182,8 +188,8 @@ img {
 }
 
 #socials {
-    top: 70vh;
-    left: 665vh;
+    top: 30vh;
+    left: 520vh;
     width: 50vh;
     text-align: center;
 }
@@ -220,6 +226,20 @@ img {
         width: 32vw;
     }
 }
+
+.button1 {
+    background-color: #f6d282; 
+    color: #481b8a;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    width: 200px;
+    height: 60px;
+  }
+  
+.button1:hover {
+    background-color: #481b8a;
+    color: #f6d282;
+  }
 
 btn {
     cursor: pointer;
