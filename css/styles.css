@@ -5,16 +5,31 @@
     --color_text_alt: #ecebf9;
 }
 
+/* Font imports */
+@font-face {
+    font-family: "Fantasy Bons";
+    src: url('../fonts/FantasyBons.otf');
+}
+
+@font-face {
+    font-family: "Woodford Bourne";
+    src: url('../fonts/WoodfordBourne.otf');
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Roboto, Arial, Helvetica, Sans-Serif;
+    font-family: "Woodford Bourne", Sans-Serif;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-flow: column;
     background-image: linear-gradient(#a483af,#9981aa,#9984ac);
+}
+
+h1 {
+    font-family: "Fantasy Bons", fantasy;
 }
 
 #scrollableElement {
@@ -167,6 +182,11 @@ img {
 
 .modal-content a {
     color: var(--color_text_alt);
+    text-decoration: none;
+}
+
+.modal-content a:hover {
+    color: var(--color_text);
 }
 
 #register {
