@@ -105,23 +105,42 @@ img {
 }
 
 #title {
-    left: 0vh;
+    top: 7.5vh;
+    left: 55vh;
+    color: var(--color_background)
+}
+
+.main-header {
+    font-size: 12.5vh;
+    text-align: center;
 }
 
 #about {
-    top: 5vh;
-    left: 75vh;
-    width: 32vh;
+    top: 40vh;
+    left: 82vh;
+    width: 65vh;
     text-align: center;
     color: var(--color_background);
 }
 
 #about .verticalScrollElement {
     max-height: 40vh;
+    flex-flow: wrap;
 }
 
 #about p {
     width: 95%;
+}
+
+.left {
+    text-align: left;
+    margin-left: 10vh;
+    
+}
+
+.right { 
+    text-align: right;
+    margin-right: 15vh;
 }
 
 #faq {
