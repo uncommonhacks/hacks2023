@@ -49,7 +49,6 @@ h1 {
 }
 
 img {
-    margin-right: 2vh;
     width: 40vh;
 }
 
@@ -175,7 +174,7 @@ img {
 #schedule {
     top: 5vh;
     left: 402.5vh;
-    width: 65vw;
+    width: 55vw;
     text-align: center;
 }
 
@@ -220,14 +219,8 @@ img {
     text-align: center;
 }
 
-#sponsor {
-    top: 39vh;
-    left: 670vh;
-    text-align: center;
-}
-
 #socials {
-    top: 30vh;
+    top: 5vh;
     left: 482.5vh;
     width: 50vh;
     text-align: center;
@@ -367,4 +360,25 @@ btn {
 
 .twitter:hover {
     box-shadow: 0 0 10px 0 #86dbde inset, 0 0 30px 5px #86dbde;
+}
+
+#team {
+    text-align: center;
+    top: 40vh;
+    left: 482.5vh;
+    width: 50vh;
+    color: var(--color_text_alt);
+}
+
+#team a {
+    color: var(--color_text_alt);
+}
+
+#team a:hover, #team h1 {
+    color: var(--color_text);
+}
+
+.headshots {
+    height: 60%;
+    width: 60%;
 }
