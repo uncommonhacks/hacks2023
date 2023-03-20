@@ -15,59 +15,141 @@
 
             <!-- Put any divs that should be overlayed ontop of the background image here. -->
             <!-- Then in css/styles.css, add absolute positioning (see #faq or #schedule as examples) -->
-            <div class="overImage" >
+            <div class="overImage">
                 <div id="nav">
-                    <p onclick="smoothScroll('title')">Home</p>
+                    <!-- <p onclick="smoothScroll('title')">Home</p> -->
+                    <p onclick="smoothScroll('about')">About</p>     
                     <p onclick="smoothScroll('faq')">FAQ</p>
-                    <p onclick="smoothScroll('schedule')">Schedule</p>          
+                    <p onclick="smoothScroll('schedule')">Schedule</p>
+                    <!-- <p onclick="smoothScroll('members')">Members</p>  
+                    <p onclick="smoothScroll('sponsor')">Sponsor</p> -->
+                    <p onclick="smoothScroll('socials')">Socials</p> 
+                    <p onclick="smoothScroll('register')">Register</p>
                 </div>
-                <div id="title"></div>
+                <div id="runner"><img id="alice" src="images/running_alice.gif"></div>
+                <div id="title">
+                    <h1 class="main-header">uNCOmMon<br>HacKS</h1>
+                </div>
+                <div id="about" >
+                    <div class="verticalScrollElement">
+                        <p class="left">
+                            Welcome to Uncommon Hacks, the official hackathon of the University of Chicago! 
+                            Spend 24 hours working on a project and meeting cool people in this one-of-a-kind experience!
+                            In our 2023 edition of Hacks, we're excited to bring you the biggest event since the pandemic,
+                            including the overnight component that makes for a truly unforgettable experience.                            
+                        </p>
+                        <p class="right">
+                            Although Hacks will have prizes, we place more emphasis on learning and collaboration than some kind of competitive aspect.
+                            So even if you've never coded before, please do sign up! A successful Hacks team needs people with different skill sets,
+                            and if you would like to learn how to code, we'll have workshops to help you do so.
+                        </p>
+                    </div>
+                </div>
                 <div id="faq">
                     <h1>FAQ</h1>
-                    <ul>
-                        <li>
-                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal1">What's a hackathon?</button>
-                        </li>
-                        <li>
-                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal2">How do I apply?</button>
-                        </li>
-                        <li>
-                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal3">When and where is Uncommon Hacks?</button>
-                        </li>
-                        <li>
-                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal4">What does the application process and timeline look like?</button>
-                        </li>
-                        <li>
-                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal5">Is Hacks only for undergraduate students??</button>
-                        </li>
-                        <li>
-                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal6">What can I make and who can I work with?</button>
-                        </li>
-                        <li>
-                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal7">What if I'm new to coding?</button>
-                        </li>
-                        <li>
-                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal8">How much does it cost?</button>
-                        </li>
-                        <li>
-                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal9">Did you say prizes?</button>
-                        </li>
-                        <li>
-                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal10">What should I bring?</button>
-                        </li>
-                        <li>
-                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal11">What if I have other questions?</button>
-                        </li>
-                        <li>
-                            <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal12">How do I stay in touch with Uncommon Hacks?</button>
-                        </li>
-                    </ul>
+                    <div class="verticalScrollElement">
+                        <ul>
+                            <li>
+                                <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal1">What's a hackathon?</button>
+                            </li>
+                            <li>
+                                <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal2">How do I apply?</button>
+                            </li>
+                            <li>
+                                <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal3">When and where is Uncommon Hacks?</button>
+                            </li>
+                            <li>
+                                <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal4">What does the application process and timeline look like?</button>
+                            </li>
+                            <li>
+                                <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal5">Is Hacks only for undergraduate students?</button>
+                            </li>
+                            <li>
+                                <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal6">What can I make and who can I work with?</button>
+                            </li>
+                            <li>
+                                <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal7">What if I'm new to coding?</button>
+                            </li>
+                            <li>
+                                <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal8">How much does it cost?</button>
+                            </li>
+                            <li>
+                                <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal9">Did you say prizes?</button>
+                            </li>
+                            <li>
+                                <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal10">What should I bring?</button>
+                            </li>
+                            <li>
+                                <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal11">What if I have other questions?</button>
+                            </li>
+                            <li>
+                                <button class="faqButton" data-bs-toggle="modal" href="" data-bs-target="#faqModal12">How do I stay in touch with Uncommon Hacks?</button>
+                            </li>
+                        </ul>
+                    </div>
+                    
                 </div>
 
                 <div id="schedule">
                     <h1>Schedule</h1>
-                    <button class="scheduleButton" data-bs-toggle="modal" data-bs-target="#scheduleModal">View the Schedule</button>
+                    <div class="verticalScrollElement">
+                        <ul>
+                            <ul>
+                                <li><em>3/24 Friday Workshop night</em></li>
+                                <li>6:00 Workshop 1/2</li>
+                                <li>7:00 Workshop 3/4</li>
+                            </ul>
+                            <ul>
+                                <li><em>3/25 Day 1</em></li>
+                                <li>9:00 Doors open, check-in, team formation, breakfast</li>
+                                <li>10:00 Opening ceremony</li>
+                                <li>10:30 Hacking begins</li>
+                                <li>12:00 Lunch</li>
+                                <li>6:00 Dinner</li>
+                                <li>9:00 Mad Hatter tea party and costume contest</li>
+                                <li>10:00-12:00 "Follow the white rabbit" scavenger hunt</li>
+                            </ul>
+                            <ul>
+                                <li><em>3/26 Day 2</em></li>
+                                <li>12:00 Midnight snack</li>
+                                <li>8:00 Morning meditation</li>
+                                <li>9:00 Breakfast</li>
+                                <li>10:00 Projects due, project fair</li>
+                                <li>11:00 Judge deliberation</li>
+                                <li>12:00 Awards, closing ceremony</li>
+                            </ul>
+                        </ul>
+                    </div>
                 </div>
+
+                <!-- <div id="members">
+                    <h1>Members</h1>
+                    <img src="https://img.freepik.com/free-photo/clueless-bearded-man-shrugs-shoulders-looks-puzzled-unaware-say-i-dont-understand_273609-52498.jpg?size=626&ext=jpg&ga=GA1.2.1996720489.1676951264&semt=ais">
+                </div>
+
+                <div id="sponsor">
+                    <h1>Sponsor</h1>
+                    <img src="https://d3qi0qp55mx5f5.cloudfront.net/beijing/i/basic_pages_large_images/Capture_(1).JPG?mtime=1573029069">
+                </div> -->
+                
+                <div id="socials">
+                    <h1>Socials</h1>
+
+                    <button class="btn email" onclick="location.href='mailto:celery@uncommonhacks.com?Subject=Uncommon%Hacks%2021%Inquiry';"></button>
+
+                    <button class="btn facebook" onclick="location.href='https://www.facebook.com/uncommonhacks';"></button>
+
+                    <button class="btn instagram" onclick="location.href='https://www.instagram.com/uncommonhacks/';"></button>
+
+                    <button class="btn linkedin" onclick="location.href='https://www.linkedin.com/company/uncommonhacks/';"></button>
+
+                    <button class="btn twitter" onclick="location.href='https://twitter.com/uncommonhacks';"></button>
+
+                    <div id="register">
+                        <button class="button button1" onclick="location.href='https://form.typeform.com/to/CS6gyJjX';"><b>Register Now!</b></button>
+                    </div>
+                </div>
+
             </div>
         </div>
 
@@ -229,21 +311,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        
-        <!-- Modal window for schedule -->
-        <div class="modal fade " id="scheduleModal" tabindex="-1">
-            <div class="modal-dialog ">
-            <div class="modal-content">
-                <div class="modal-header">
-                    Schedule
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Schedule coming soon!</p>
-                </div>
-            </div>
             </div>
         </div>
 
