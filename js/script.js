@@ -40,7 +40,6 @@ function smoothScroll(whereToScroll) {
 let headShotsList = [
   "images/member_photos/Chang_Formal - Eric Chang.jpg",
   "images/member_photos/Cropped Senior Pic - Hunter Smith.jpeg",
-  "images/member_photos/EmilyBaeTillFurtherNotice.jpg",
   "images/member_photos/IMG_0913 copy - Nicole Li.jpg",
   "images/member_photos/IMG_2010 - Irina Stamm.jpg",
   "images/member_photos/IMG_2865 copy - Jack Rong.JPG",

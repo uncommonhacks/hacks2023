@@ -26,6 +26,7 @@ body {
     justify-content: center;
     flex-flow: column;
     background-image: linear-gradient(#a483af,#9981aa,#9984ac);
+    color: var(--color_text);
 }
 
 h1 {
@@ -220,7 +221,7 @@ img {
 }
 
 #socials {
-    top: 5vh;
+    top: 65vh;
     left: 482.5vh;
     width: 50vh;
     text-align: center;
@@ -364,10 +365,14 @@ btn {
 
 #team {
     text-align: center;
-    top: 40vh;
+    top: 5vh;
     left: 482.5vh;
     width: 50vh;
     color: var(--color_text_alt);
+}
+
+#team p {
+    padding: 0 10vh;
 }
 
 #team a {
@@ -379,6 +384,17 @@ btn {
 }
 
 .headshots {
-    height: 60%;
-    width: 60%;
+    height: 40%;
+    width: 40%;
+}
+
+#sponsor {
+    text-align: center;
+    top: 44vh;
+    left: 482.5vh;
+    width: 50vh;
+}
+
+#sponsor img {
+    width: 12.5%;
 }
