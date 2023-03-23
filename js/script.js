@@ -35,3 +35,35 @@ function smoothScroll(whereToScroll) {
   const element = document.getElementById(whereToScroll);
   element.scrollIntoView({behavior: "smooth", inline: "center"});
 }
+
+/* Members list */
+let headShotsList = [
+  "images/member_photos/Chang_Formal - Eric Chang.jpg",
+  "images/member_photos/Cropped Senior Pic - Hunter Smith.jpeg",
+  "images/member_photos/IMG_0913 copy - Nicole Li.jpg",
+  "images/member_photos/IMG_2010 - Irina Stamm.jpg",
+  "images/member_photos/IMG_2865 copy - Jack Rong.JPG",
+  "images/member_photos/IMG_7372 - Spencer Ng.jpg",
+  "images/member_photos/its_me (1) - Kristin Wu.JPG",
+  "images/member_photos/Lee.Irina - Irina Lee.jpeg",
+  "images/member_photos/marseille headshot - Nicholas Liu.jpeg",
+  "images/member_photos/new-anton-2 - Anton Outkine.jpg",
+  "images/member_photos/PHOTO - Subey Marchen.jpeg",
+  "images/member_photos/profile pic copy - Renee Huang.jpg",
+  "images/member_photos/WeChat Image_20221012200041 - Yiming Su.jpg",
+  "images/member_photos/wind-anton - Anton Outkine.jpg",
+];
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
+let currentPicture = getRandomInt(headShotsList.length);
+let headShot = document.getElementById("headshots");
+
+headShot.setAttribute("src", headShotsList[currentPicture]);
+setInterval(() => {
+  currentPicture =
+    currentPicture == headShotsList.length - 1 ? 0 : currentPicture + 1;
+  headShot.setAttribute("src", headShotsList[currentPicture]);
+}, 2000);

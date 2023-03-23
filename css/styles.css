@@ -26,6 +26,7 @@ body {
     justify-content: center;
     flex-flow: column;
     background-image: linear-gradient(#a483af,#9981aa,#9984ac);
+    color: var(--color_text);
 }
 
 h1 {
@@ -49,7 +50,6 @@ h1 {
 }
 
 img {
-    margin-right: 2vh;
     width: 40vh;
 }
 
@@ -175,7 +175,7 @@ img {
 #schedule {
     top: 5vh;
     left: 402.5vh;
-    width: 65vw;
+    width: 55vw;
     text-align: center;
 }
 
@@ -220,14 +220,8 @@ img {
     text-align: center;
 }
 
-#sponsor {
-    top: 39vh;
-    left: 670vh;
-    text-align: center;
-}
-
 #socials {
-    top: 30vh;
+    top: 65vh;
     left: 482.5vh;
     width: 50vh;
     text-align: center;
@@ -367,4 +361,40 @@ btn {
 
 .twitter:hover {
     box-shadow: 0 0 10px 0 #86dbde inset, 0 0 30px 5px #86dbde;
+}
+
+#team {
+    text-align: center;
+    top: 5vh;
+    left: 482.5vh;
+    width: 50vh;
+    color: var(--color_text_alt);
+}
+
+#team p {
+    padding: 0 10vh;
+}
+
+#team a {
+    color: var(--color_text_alt);
+}
+
+#team a:hover, #team h1 {
+    color: var(--color_text);
+}
+
+.headshots {
+    height: 40%;
+    width: 40%;
+}
+
+#sponsor {
+    text-align: center;
+    top: 44vh;
+    left: 482.5vh;
+    width: 50vh;
+}
+
+#sponsor img {
+    width: 12.5%;
 }
